@@ -10,7 +10,7 @@ namespace teht8
     {
         static void Main(string[] args)
         {
-
+         
         }
     }
 }

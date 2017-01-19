@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teht8", "teht8\teht8.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teht9", "teht9\teht9.csproj", "{86C50023-94D0-4D51-8B36-D183C1E1C44E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teht10", "teht10\teht10.csproj", "{A2D073F8-58A6-41CE-B62C-2B1E058A44F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teht11", "teht11\teht11.csproj", "{11B92E48-6C71-499C-BE89-7BBDFF5D9FAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{86C50023-94D0-4D51-8B36-D183C1E1C44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C50023-94D0-4D51-8B36-D183C1E1C44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C50023-94D0-4D51-8B36-D183C1E1C44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D073F8-58A6-41CE-B62C-2B1E058A44F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D073F8-58A6-41CE-B62C-2B1E058A44F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D073F8-58A6-41CE-B62C-2B1E058A44F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D073F8-58A6-41CE-B62C-2B1E058A44F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B92E48-6C71-499C-BE89-7BBDFF5D9FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B92E48-6C71-499C-BE89-7BBDFF5D9FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B92E48-6C71-499C-BE89-7BBDFF5D9FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B92E48-6C71-499C-BE89-7BBDFF5D9FAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

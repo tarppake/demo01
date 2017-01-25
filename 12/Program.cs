@@ -10,9 +10,26 @@ namespace _12
     {
         static void Main(string[] args)
         {
-            int[4] luvut;
+            int[] luvut = new int[5];
 
-
+            for (int i = 0; i < 5; i++); //kysyy luvut
+            {
+                Console.Write("Anna luku: ");
+                string line = Console.ReadLine();
+                int luku;
+                bool result = Int32.TryParse(line, out luku);
+                if (result)
+                {
+                    luvut[i] = luku; //??  
+                }
+            }
+            Console.Write("luvut ovat: ");
+            for (int i = luvut.Length - 1; i >= 0; i--)
+            {
+                Console.Write(luvut[i]);
+                if (i > 0) Console.Write(" , ");
+                    
+            }
         }
     }
 }

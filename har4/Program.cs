@@ -18,7 +18,7 @@ namespace har4
             {
                 Console.WriteLine("alaikainen");
             }
-            else if (ika >= 18 && ika <= 65) //mites?? 18-65, yläraja??
+            else if (ika >= 18 && ika <= 65)
             {
                 Console.WriteLine("Aikuinen");
             }

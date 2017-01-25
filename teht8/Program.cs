@@ -10,7 +10,24 @@ namespace teht8
     {
         static void Main(string[] args)
         {
-         
+            int number;
+            int numbers = 3;
+            int greatest = 0;
+
+            for (int i = 1; i <= numbers; i++)
+            {
+                Console.Write("Anna numero: ");
+                string line = Console.ReadLine();
+                bool result = Int32.TryParse(line, out number);
+                if (result)
+                {
+                    if (i == 1) greatest = number;
+                    else if (number > greatest) greatest = number;
+                }
+             
+            }
+            Console.WriteLine("Suurin luku on " + greatest);
+
         }
     }
 }

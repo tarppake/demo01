@@ -10,10 +10,10 @@ namespace teht7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("anna vuosiluku");
+            Console.WriteLine("anna vuosiluku"); // kysyy vuoden
             int vuosi = int.Parse(Console.ReadLine());
             
-            if(vuosi % 4 == 0 && vuosi % 100 != 0 || vuosi % 400 == 0)
+            if(vuosi % 4 == 0 && vuosi % 100 != 0 || vuosi % 400 == 0) // VUosi on neljällä jaettava, paiti täydet vuosisadat. Mutta 400 jaolliset on
             {
                 Console.WriteLine("Vuosi on karkausvuosi.");
             }

@@ -10,6 +10,7 @@ namespace teht18
     {
         static void Main(string[] args)
         {
+            // Kysyy tekstiä
             Console.Write("Syota tekstia: ");
             string line = Console.ReadLine();
             int length = line.Length;

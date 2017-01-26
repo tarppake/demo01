@@ -10,15 +10,17 @@ namespace teht5
     {
         static void Main(string[] args)
         {
+            //kysyy sekunnit
             Console.Write("Anna sekunnit > ");
             int sekunnit = int.Parse(Console.ReadLine());
            
-           
+                //laskee sekunneista tunnit, minuutit ja jäljelle jääneet sekunnit
                 int tunnit = sekunnit / 3600; 
                 int minuutit = sekunnit / 60 - tunnit * 60;
                 int sekuntti = sekunnit % 60;
 
-                Console.WriteLine(tunnit + " tunti " + minuutit + " minuutti " + sekuntti  + " sekuntti");
+                // tulostaa vastauksen
+                Console.WriteLine(tunnit + " tunti " + minuutit + " minuutti " + sekuntti  + " sekuntti"); 
             
                      
         }

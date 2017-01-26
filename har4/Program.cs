@@ -14,15 +14,15 @@ namespace har4
             Console.Write("Anna ikä > ");
             int ika = int.Parse(Console.ReadLine());
 
-            if (ika < 18)
+            if (ika < 18) // jos alle 18 (<-17)
             {
                 Console.WriteLine("alaikainen");
             }
-            else if (ika >= 18 && ika <= 65)
+            else if (ika >= 18 && ika <= 65) // jos 18 tai yli ja 65 tai alle sen
             {
                 Console.WriteLine("Aikuinen");
             }
-            else { 
+            else { //jos yli 65 (66->) 
                 Console.WriteLine("Seniori");
             }
                     

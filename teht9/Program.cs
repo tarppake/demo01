@@ -20,7 +20,7 @@ namespace teht9
                 result = Int32.TryParse(line, out number);
                 if (result)
                 {
-                    summa += number; //annettujen lukujen on summan lasku
+                    summa += number; //annettujen lukujen summan lasku
                 }
             }
             while (result && number != 0); // result ja number ei ole 0

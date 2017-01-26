@@ -10,12 +10,12 @@ namespace teht01
     {
         static void Main(string[] args)
         {
-            // ask a number
+            // kysyy numeron
             int number;
             Console.Write("Give a number >");
             string line = Console.ReadLine(); // "1"
             number = int.Parse(line); //"1" -> 1
-            // which number...
+            // mikä numero
             switch (number)
             {
                 case 1: Console.WriteLine("yksi"); break;

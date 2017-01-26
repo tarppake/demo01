@@ -11,7 +11,7 @@ namespace teht8
         static void Main(string[] args)
         {
             int number;
-            int numbers = 3;
+            int numbers = 3; //kysyy kolme kertaa
             int greatest = 0;
 
             for (int i = 1; i <= numbers; i++)

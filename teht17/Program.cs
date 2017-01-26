@@ -17,7 +17,7 @@ namespace teht17
             Console.WriteLine("luvut yhdistetyssä taulukossa:");
             for (int i = 0; i < array3.Length; i++)
             {
-                Console.WriteLine(array3[i]);
+                Console.WriteLine(array3[i]); //tulostaa yhdistetyn taulukon
             }
             Console.ReadLine();
         }

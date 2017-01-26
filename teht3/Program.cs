@@ -24,6 +24,7 @@ namespace teht3
             int summa = luku1 + luku2 + luku3;
             int keksiarvo = (luku1 + luku2 + luku3) / 3;
 
+            // tulostaa summan ja keskiarvon
             Console.WriteLine("Lukujen summa on: " + summa);
             Console.WriteLine("Lukujen keskiarvo on: " + keksiarvo);
         }

@@ -10,22 +10,20 @@ namespace teht6
     {
         static void Main(string[] args)
         {
+
             double kulutus = 7.02;
             double hinta = 1.595;
 
             // kysyy kilometrimäärän
             Console.WriteLine("Anna kilometri maara > ");
-            string line = Console.ReadLine();
-            double matka;
-            bool result = Double.TryParse(line, out matka);
-            if (result)
-            {
+            double matka = double.Parse(Console.ReadLine());
+
+
                 double bensa = matka / 100 * kulutus;
                 double kustannus = bensa * hinta;
                 Console.WriteLine("Bensaa kuluu " + bensa + " litraa");
                 Console.WriteLine("Kustannus on " + kustannus + " euroa");
-            }
-
+           
         }
     }
 }

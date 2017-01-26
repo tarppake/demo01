@@ -10,7 +10,7 @@ namespace teht11
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Anna luku > ");
+            Console.WriteLine("Anna luku > "); // kysyy määrän
             int luku = int.Parse(Console.ReadLine());
             int tahdet = 1;
        

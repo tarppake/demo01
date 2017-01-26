@@ -27,13 +27,13 @@ namespace _15
                     {
                         Console.Write(" ");
                     }
-                    for (int star = 0; star <= i * 2; star++) // tulostaa tähden
+                    for (int star = 0; star <= i * 2; star++) // tulostaa tähen 
                     {
                         Console.Write("*");
                     }
                     Console.WriteLine();
                 }
-                for (int i = 0; i < kanta; i++) //kannan tulostus
+                for (int i = 0; i < kanta; i++) // puun kannan tulostus
                 {
                     for (int space = 0; space <= puu; space++)
                     {
